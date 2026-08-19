@@ -35,7 +35,7 @@ Built with clean, vanilla JavaScript [cite: 2], custom CSS variables [cite: 1], 
 ## 🚀 Live Demo
 
 Check out the live app running on GitHub Pages:
-👉 **[https://github.com/astra-zombater/calculater](https://astra-zombater.github.io/calculater/)**
+👉 **[https://github.com/astra-zombater/Calculater](https://astra-zombater.github.io/Calculator/)**
 
 ---
 
