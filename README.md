@@ -5,7 +5,7 @@ A sleek, minimalistic web-based calculator featuring a **modern dark grid aesthe
 Built with clean, vanilla JavaScript [cite: 2], custom CSS variables [cite: 1], and smooth interaction layers.
 
 ---
-
+ 
 ## ✨ Features
 
 *   **Sleek Dark Theme:** Engineered with modern, high-contrast visual hierarchies (`#121315` and `#1e2024`) featuring card layouts, hover tracks, and custom background layers [cite: 1].
