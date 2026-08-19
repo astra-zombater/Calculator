@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Grid Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+
+    
+    <div class="calculator-card">
+        <!-- Active Result Display Screen Window -->
+        <div class="screen-container">
+            <div class="history-text" id="history"></div>
+            <div class="current-value" id="display">0</div>
+        </div>
+        
+    <!-- Layout Grid Engine matching design image -->
+    <div class="keypad-grid">
+        <!-- Row 1 -->
+        <button class="calc-btn function" onclick="inputParenthesis('(')">(</button>
+        <button class="calc-btn function" onclick="inputParenthesis(')')">)</button>
+        <button class="calc-btn function" onclick="inputPercent()">%</button>
+        <button class="calc-btn function" onclick="clearAll()">AC</button>
+        
+        <!-- Row 2 -->
+        <button class="calc-btn" onclick="inputDigit('7')">7</button>
+        <button class="calc-btn" onclick="inputDigit('8')">8</button>
+        <button class="calc-btn" onclick="inputDigit('9')">9</button>
+        <button class="calc-btn operator" onclick="inputOperator('/')">÷</button>
+        
+        <!-- Row 3 -->
+        <button class="calc-btn" onclick="inputDigit('4')">4</button>
+        <button class="calc-btn" onclick="inputDigit('5')">5</button>
+        <button class="calc-btn" onclick="inputDigit('6')">6</button>
+        <button class="calc-btn operator" onclick="inputOperator('*')">×</button>
+        
+        <!-- Row 4 -->
+        <button class="calc-btn" onclick="inputDigit('1')">1</button>
+        <button class="calc-btn" onclick="inputDigit('2')">2</button>
+        <button class="calc-btn" onclick="inputDigit('3')">3</button>
+        <button class="calc-btn operator" onclick="inputOperator('-')">−</button>
+        
+        <!-- Row 5 -->
+        <button class="calc-btn" onclick="inputDigit('0')">0</button>
+        <button class="calc-btn" onclick="inputDecimal('.')">.</button>
+        <button class="calc-btn equals" onclick="executeCalculation()">=</button>
+        <button class="calc-btn operator" onclick="inputOperator('+')">+</button>
+    </div>
+    <footer>Made with 🖤 by Astra Zombater</footer>
+</div>
+
+<script src="style.js"></script>
+</body>
+</html>
