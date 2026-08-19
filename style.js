@@ -12,7 +12,7 @@
 
     function updateHistory(value) {
         historyElement.innerText = value;//Updates the smaller history screen with the text passed into value
-    }
+    } 
 
     function inputDigit(digit) { // whenever user clicks the number 0-9 it gets it and parses it to the other storing variables
         if (clearOnNextInput) {
